@@ -6,8 +6,30 @@ class F2BanReporter {
 	 protected $banlog;
 	 protected $cfg;
 	 protected $reports;
+	 protected $logs = array();
 	 public function __construct($cfg) {
 	 	$this->cfg = $cfg;
+	 	$jailconf = file_get_contents($this->cfg['jailconf']);
+	 	$self = $this;
+	 	preg_replace_callback('~^\s*(?:\[(.+?)\]|logpath\s*=\s*(.+?))(?=#|$)~m', function ($m) use ($self, &$section) {
+	 		if ($m[1] !== '') {
+	 			$section = $m[1];
+	 			return;
+	 		}
+	 		if ($section === null) {
+	 			return;
+	 		}
+	 		$path = $m[2];
+	 		$glob = glob($path);
+	 		if (empty($glob)) {
+	 			return;
+	 		}
+	 		if (!isset($self->logs[$section])) {
+	 			$self->logs[$section] = $glob;
+	 		} else {
+	 			$self->logs[$section] = array_merge($self->logs[$section], $glob);
+	 		}
+	 	}, $jailconf);
 	 }
 	 public function renderTemplate($r, $tpl) {
 	 	$self = $this;
@@ -50,25 +72,38 @@ class F2BanReporter {
 	 	return $m[1];
 	 }
 	 public function getReports() {
-	 	$banned = $this->parseBanLog($this->cfg['banlog']);
-	 	$this->parseAuthLog($this->cfg['authlog'], $banned);
+	 	$banned = array();
+	 	if (!isset($this->logs['recidive'])) {
+	 		throw new Exception('No recive files. Abort.');
+	 	}
+	 	foreach ($this->logs['recidive'] as $recidive) {
+	 		$banned = array_merge($banned, $this->parseRecidiveLog($recidive));
+	 	}
+	 	foreach ($this->logs as $service => $pathes) {
+	 		foreach ($pathes as $path) {
+	 			$this->parseAccessLog($service, $path, $banned);
+	 		}
+	 	}
 	 	foreach ($this->reports as &$r) {
 	 		$r['abusemailbox'] = $this->getAbuseMailboxByIp($r['ip']);
 	 	}
 	 	return $this->reports;
 	 }
-	 public function parseAuthLog($path, $banned) {
-	 	$authlog = new F2BanAuthLog($path, $this);
-	 	$authlog->setBanned($banned);
-	 	$authlog->readAll();
+	 public function parseAccessLog($service, $path, $banned) {
+	 	if ($service === 'recidive') {
+	 		return;
+	 	}
+	 	$log = new F2BLogAccessLog($path, $this);
+	 	$log->setBanned($banned);
+	 	$log->readAll();
 	 }
-	 public function parseBanLog($path) {
-	 	$banlog = new F2BanLog($path, $this);
+	 public function parseRecidiveLog($path) {
+	 	$banlog = new F2BLogRecidive($path, $this);
 	 	$banlog->readAll();
 	 	return $banlog->getBanned();
 	 }
 }
-class F2BanAuthLog extends F2BanReporterLogReader {
+class F2BLogAccessLog extends F2BanReporterLogReader {
 	protected $banned;
 	protected function onLine($line) {
 		if (!preg_match('~(?<=\W|^)\d+\.\d+\.\d+\.\d+(?=\W|$)~', $line, $m)) {
@@ -84,7 +119,7 @@ class F2BanAuthLog extends F2BanReporterLogReader {
 		$this->banned = $banned;
 	}
 }
-class F2BanLog extends F2BanReporterLogReader {
+class F2BLogRecidive extends F2BanReporterLogReader {
 	protected $banned = array();
 	protected function onLine($line) {
 		if (!preg_match('~^(\S+\s+\S+)\s+([\w+\.]+): WARNING \[ssh-ipfw\] Ban (.*)$~', $line, $m)) {
@@ -153,5 +188,9 @@ abstract class F2BanReporterLogReader {
 	}
 }
 if ($q) {
-	$q();
+	try {
+		$q();
+	} catch (Exception $e) {
+		echo $e->getMessage() . PHP_EOL;
+	}
 }

@@ -1,8 +1,7 @@
 <?php $q = function () {
-	
+
 $f2b = new F2BanReporter(array(
-	'authlog'	=> 'auth.log',
-	'banlog'	=> 'fail2ban.log',
+	'jailconf'	=> '/etc/fail2ban/jail.conf',
 	'defaultemail'	=> 'abuse@localhost',
 	'serverip' => trim(file_get_contents('http://wtfismyip.com/text')),
 	'subject' => "[FAIL2BAN REPORT] %IP% from your network attacked us (%SERVERIP%)!",
