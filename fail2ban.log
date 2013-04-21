@@ -1,0 +1,317 @@
+2013-04-05 23:00:42,557 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:05:02,687 fail2ban.server : INFO   Stopping all jails
+2013-04-05 23:05:02,687 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-05 23:05:16,429 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:09:58,570 fail2ban.server : INFO   Stopping all jails
+2013-04-05 23:09:58,570 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-05 23:10:11,798 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:18:24,301 fail2ban.server : INFO   Stopping all jails
+2013-04-05 23:18:24,302 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-05 23:18:37,477 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:27:45,543 fail2ban.server : INFO   Stopping all jails
+2013-04-05 23:27:45,544 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-05 23:27:46,417 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:42:13,161 fail2ban.server : INFO   Stopping all jails
+2013-04-05 23:42:13,161 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-05 23:48:59,402 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-05 23:48:59,404 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-05 23:48:59,405 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-05 23:48:59,455 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-05 23:48:59,457 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-05 23:48:59,458 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-05 23:48:59,460 fail2ban.filter : INFO   Set findtime = 600
+2013-04-05 23:48:59,461 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-05 23:48:59,601 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-05 23:48:59,617 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 00:11:02,463 fail2ban.actions: WARNING [ssh-ipfw] Ban 50.63.156.78
+2013-04-06 00:15:54,959 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:16:08,000 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:16:29,021 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:16:39,031 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:16:50,044 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:19:02,319 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:21:31,753 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:21:37,761 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:23:01,984 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:23:19,067 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:23:27,077 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:23:45,099 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:23:54,112 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:24:44,164 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:24:52,174 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:26:47,481 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:26:51,485 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:27:40,641 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:27:45,645 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:28:20,710 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:28:23,713 fail2ban.actions: INFO   [ssh-ipfw] 50.63.156.78 already banned
+2013-04-06 00:29:04,949 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:29:14,960 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:30:17,488 fail2ban.server : INFO   Stopping all jails
+2013-04-06 00:30:18,473 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-06 00:30:18,486 fail2ban.actions.action: ERROR  /sbin/ipfw table 100 delete 66.197.184.68 returned 4700
+2013-04-06 00:30:18,487 fail2ban.actions: WARNING [ssh-ipfw] Unban 50.63.156.78
+2013-04-06 00:30:18,500 fail2ban.actions.action: ERROR  /sbin/ipfw table 100 delete 50.63.156.78 returned 4700
+2013-04-06 00:30:18,508 fail2ban.jail   : INFO   Jail 'ssh-ipfw' stopped
+2013-04-06 00:30:18,509 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-06 00:30:19,818 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-06 00:30:19,820 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-06 00:30:19,821 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-06 00:30:19,860 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-06 00:30:19,863 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-06 00:30:19,865 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-06 00:30:19,870 fail2ban.filter : INFO   Set findtime = 600
+2013-04-06 00:30:19,872 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-06 00:30:20,065 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-06 00:30:20,092 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 00:30:20,106 fail2ban.actions: WARNING [ssh-ipfw] Ban 50.63.156.78
+2013-04-06 00:43:53,997 fail2ban.server : INFO   Stopping all jails
+2013-04-06 00:43:54,459 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-06 00:43:54,469 fail2ban.actions: WARNING [ssh-ipfw] Unban 50.63.156.78
+2013-04-06 00:43:54,484 fail2ban.jail   : INFO   Jail 'ssh-ipfw' stopped
+2013-04-06 00:43:54,484 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-06 00:44:09,294 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-06 00:44:09,296 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-06 00:44:09,298 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-06 00:44:09,345 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-06 00:44:09,349 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-06 00:44:09,351 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-06 00:44:09,359 fail2ban.filter : INFO   Set findtime = 600
+2013-04-06 00:44:09,360 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-06 00:44:09,547 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-06 00:46:32,713 fail2ban.actions: WARNING [ssh-ipfw] Ban 78.47.79.193
+2013-04-06 00:47:03,767 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 00:47:07,780 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:13,822 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:16,831 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:21,838 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:23,842 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:38,859 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:42,865 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:57,882 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:47:59,892 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:04,900 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:06,904 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:12,912 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:14,916 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:19,925 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:48:21,929 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:49:36,019 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:49:38,024 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:50:15,108 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:50:19,114 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:50:24,121 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:50:27,126 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:52:59,065 fail2ban.server : INFO   Stopping all jails
+2013-04-06 00:52:59,367 fail2ban.actions: WARNING [ssh-ipfw] Unban 78.47.79.193
+2013-04-06 00:52:59,376 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-06 00:52:59,388 fail2ban.jail   : INFO   Jail 'ssh-ipfw' stopped
+2013-04-06 00:52:59,389 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-06 00:53:13,728 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-06 00:53:13,729 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-06 00:53:13,731 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-06 00:53:13,773 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-06 00:53:13,777 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-06 00:53:13,778 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-06 00:53:13,785 fail2ban.filter : INFO   Set findtime = 600
+2013-04-06 00:53:13,787 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-06 00:53:14,031 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-06 00:53:14,173 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 00:53:14,403 fail2ban.actions: WARNING [ssh-ipfw] Ban 78.47.79.193
+2013-04-06 00:55:00,281 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:55:02,283 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:55:36,520 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:55:39,549 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:55:45,557 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:55:48,560 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:56:49,703 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 00:56:52,706 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:04:45,660 fail2ban.server : INFO   Stopping all jails
+2013-04-06 01:04:45,672 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-06 01:04:45,960 fail2ban.actions: WARNING [ssh-ipfw] Unban 78.47.79.193
+2013-04-06 01:04:45,987 fail2ban.jail   : INFO   Jail 'ssh-ipfw' stopped
+2013-04-06 01:04:45,988 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-06 01:05:00,759 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-06 01:05:00,761 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-06 01:05:00,763 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-06 01:05:00,805 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-06 01:05:00,809 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-06 01:05:00,810 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-06 01:05:00,816 fail2ban.filter : INFO   Set findtime = 600
+2013-04-06 01:05:00,817 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-06 01:05:01,090 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-06 01:05:01,128 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 01:06:50,471 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:07:45,533 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:09:36,656 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:10:33,911 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:25:58,026 fail2ban.server : INFO   Stopping all jails
+2013-04-06 01:25:58,029 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-06 01:25:58,289 fail2ban.jail   : INFO   Jail 'ssh-ipfw' stopped
+2013-04-06 01:25:58,289 fail2ban.server : INFO   Exiting Fail2ban
+2013-04-06 01:26:11,408 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.8
+2013-04-06 01:26:11,410 fail2ban.jail   : INFO   Creating new jail 'ssh-ipfw'
+2013-04-06 01:26:11,410 fail2ban.jail   : INFO   Jail 'ssh-ipfw' uses poller
+2013-04-06 01:26:11,434 fail2ban.jail   : INFO   Initiated 'polling' backend
+2013-04-06 01:26:11,435 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2013-04-06 01:26:11,436 fail2ban.filter : INFO   Set maxRetry = 3
+2013-04-06 01:26:11,439 fail2ban.filter : INFO   Set findtime = 600
+2013-04-06 01:26:11,440 fail2ban.actions: INFO   Set banTime = 604800
+2013-04-06 01:26:11,588 fail2ban.jail   : INFO   Jail 'ssh-ipfw' started
+2013-04-06 01:28:32,537 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.197.184.68
+2013-04-06 01:28:35,548 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:28:40,553 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:28:43,556 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:21,594 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:27,600 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:41,614 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:44,629 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:49,634 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:52,637 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:29:57,642 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:30:00,658 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:30:42,740 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:30:45,743 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:30:49,747 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:32:55,945 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:32:57,947 fail2ban.actions: INFO   [ssh-ipfw] 66.197.184.68 already banned
+2013-04-06 01:53:52,279 fail2ban.actions: WARNING [ssh-ipfw] Ban 78.46.222.249
+2013-04-06 03:50:38,320 fail2ban.actions: WARNING [ssh-ipfw] Ban 123.49.33.136
+2013-04-06 07:09:21,191 fail2ban.actions: WARNING [ssh-ipfw] Ban 188.132.217.38
+2013-04-06 08:42:24,689 fail2ban.actions: WARNING [ssh-ipfw] Ban 121.191.8.10
+2013-04-06 16:40:53,345 fail2ban.actions: WARNING [ssh-ipfw] Ban 196.46.20.59
+2013-04-06 20:46:32,572 fail2ban.actions: WARNING [ssh-ipfw] Ban 93.93.220.125
+2013-04-07 11:57:09,073 fail2ban.actions: WARNING [ssh-ipfw] Ban 106.187.100.33
+2013-04-07 12:12:55,489 fail2ban.actions: WARNING [ssh-ipfw] Ban 63.143.41.197
+2013-04-07 14:16:34,119 fail2ban.actions: WARNING [ssh-ipfw] Ban 178.255.168.42
+2013-04-07 14:17:15,168 fail2ban.actions: WARNING [ssh-ipfw] Ban 92.246.181.141
+2013-04-07 16:54:05,793 fail2ban.actions: WARNING [ssh-ipfw] Ban 85.233.152.210
+2013-04-07 17:26:13,546 fail2ban.actions: WARNING [ssh-ipfw] Ban 123.30.180.59
+2013-04-07 18:04:07,549 fail2ban.actions: WARNING [ssh-ipfw] Ban 60.28.27.14
+2013-04-08 01:36:49,374 fail2ban.actions: WARNING [ssh-ipfw] Ban 180.153.245.13
+2013-04-08 05:14:30,370 fail2ban.actions: WARNING [ssh-ipfw] Ban 182.131.22.211
+2013-04-08 08:18:45,131 fail2ban.actions: WARNING [ssh-ipfw] Ban 118.244.14.49
+2013-04-08 09:43:51,994 fail2ban.actions: WARNING [ssh-ipfw] Ban 117.239.77.130
+2013-04-08 10:57:08,926 fail2ban.actions: WARNING [ssh-ipfw] Ban 188.127.229.22
+2013-04-08 16:14:04,958 fail2ban.actions: WARNING [ssh-ipfw] Ban 199.201.126.12
+2013-04-08 18:41:19,684 fail2ban.actions: WARNING [ssh-ipfw] Ban 145.253.72.3
+2013-04-08 19:26:54,567 fail2ban.actions: WARNING [ssh-ipfw] Ban 109.70.149.222
+2013-04-09 00:16:39,510 fail2ban.actions: WARNING [ssh-ipfw] Ban 121.163.230.100
+2013-04-09 07:14:34,433 fail2ban.actions: WARNING [ssh-ipfw] Ban 50.56.85.85
+2013-04-09 10:30:43,622 fail2ban.actions: WARNING [ssh-ipfw] Ban 5.135.48.159
+2013-04-09 12:00:01,230 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2013-04-09 13:33:28,068 fail2ban.actions: WARNING [ssh-ipfw] Ban 115.23.174.206
+2013-04-09 15:05:24,769 fail2ban.actions: WARNING [ssh-ipfw] Ban 187.33.2.140
+2013-04-09 18:36:41,714 fail2ban.actions: WARNING [ssh-ipfw] Ban 176.99.6.220
+2013-04-09 19:21:32,000 fail2ban.actions: WARNING [ssh-ipfw] Ban 211.154.163.149
+2013-04-09 21:32:08,229 fail2ban.actions: WARNING [ssh-ipfw] Ban 116.205.243.183
+2013-04-09 22:51:59,702 fail2ban.actions: WARNING [ssh-ipfw] Ban 222.239.255.64
+2013-04-09 23:15:01,762 fail2ban.actions: WARNING [ssh-ipfw] Ban 176.222.228.187
+2013-04-10 02:51:32,271 fail2ban.actions: WARNING [ssh-ipfw] Ban 115.68.22.162
+2013-04-10 04:35:21,789 fail2ban.actions: WARNING [ssh-ipfw] Ban 1.25.202.50
+2013-04-10 08:18:03,493 fail2ban.actions: WARNING [ssh-ipfw] Ban 195.113.36.111
+2013-04-10 13:00:15,020 fail2ban.actions: WARNING [ssh-ipfw] Ban 60.10.203.18
+2013-04-10 13:43:04,036 fail2ban.actions: WARNING [ssh-ipfw] Ban 117.239.53.3
+2013-04-10 17:27:06,394 fail2ban.actions: WARNING [ssh-ipfw] Ban 221.224.33.70
+2013-04-10 18:15:17,086 fail2ban.actions: WARNING [ssh-ipfw] Ban 69.215.184.185
+2013-04-10 20:28:16,731 fail2ban.actions: WARNING [ssh-ipfw] Ban 61.19.244.118
+2013-04-11 00:07:32,118 fail2ban.actions: WARNING [ssh-ipfw] Ban 88.191.130.215
+2013-04-11 04:38:26,322 fail2ban.actions: WARNING [ssh-ipfw] Ban 202.108.62.199
+2013-04-11 06:41:14,614 fail2ban.actions: WARNING [ssh-ipfw] Ban 189.3.61.50
+2013-04-11 12:00:01,023 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2013-04-11 22:46:36,451 fail2ban.actions: WARNING [ssh-ipfw] Ban 125.39.8.136
+2013-04-11 23:15:51,710 fail2ban.actions: WARNING [ssh-ipfw] Ban 222.186.31.83
+2013-04-12 04:09:43,511 fail2ban.actions: WARNING [ssh-ipfw] Ban 176.108.0.22
+2013-04-12 17:07:30,103 fail2ban.actions: WARNING [ssh-ipfw] Ban 122.4.79.67
+2013-04-12 22:37:06,620 fail2ban.actions: WARNING [ssh-ipfw] Ban 193.255.242.4
+2013-04-12 23:26:24,664 fail2ban.actions: WARNING [ssh-ipfw] Ban 192.95.52.154
+2013-04-13 01:28:33,066 fail2ban.actions: WARNING [ssh-ipfw] Unban 66.197.184.68
+2013-04-13 01:53:53,255 fail2ban.actions: WARNING [ssh-ipfw] Unban 78.46.222.249
+2013-04-13 02:56:32,151 fail2ban.actions: WARNING [ssh-ipfw] Ban 193.224.95.2
+2013-04-13 03:50:39,025 fail2ban.actions: WARNING [ssh-ipfw] Unban 123.49.33.136
+2013-04-13 07:09:21,652 fail2ban.actions: WARNING [ssh-ipfw] Unban 188.132.217.38
+2013-04-13 08:42:25,318 fail2ban.actions: WARNING [ssh-ipfw] Unban 121.191.8.10
+2013-04-13 11:29:41,382 fail2ban.actions: WARNING [ssh-ipfw] Ban 192.211.62.180
+2013-04-13 12:54:50,365 fail2ban.actions: WARNING [ssh-ipfw] Ban 152.48.2.238
+2013-04-13 14:54:47,792 fail2ban.actions: WARNING [ssh-ipfw] Ban 188.132.206.233
+2013-04-13 16:40:54,190 fail2ban.actions: WARNING [ssh-ipfw] Unban 196.46.20.59
+2013-04-13 20:46:32,651 fail2ban.actions: WARNING [ssh-ipfw] Unban 93.93.220.125
+2013-04-14 00:18:19,856 fail2ban.actions: WARNING [ssh-ipfw] Ban 178.254.4.62
+2013-04-14 01:04:08,115 fail2ban.actions: WARNING [ssh-ipfw] Ban 113.34.19.75
+2013-04-14 08:45:11,941 fail2ban.actions: WARNING [ssh-ipfw] Ban 58.68.229.137
+2013-04-14 11:57:09,669 fail2ban.actions: WARNING [ssh-ipfw] Unban 106.187.100.33
+2013-04-14 12:12:55,671 fail2ban.actions: WARNING [ssh-ipfw] Unban 63.143.41.197
+2013-04-14 14:16:34,130 fail2ban.actions: WARNING [ssh-ipfw] Unban 178.255.168.42
+2013-04-14 14:16:34,138 fail2ban.actions.action: ERROR  /sbin/ipfw table 100 delete 178.255.168.42 returned 4700
+2013-04-14 14:17:15,246 fail2ban.actions: WARNING [ssh-ipfw] Unban 92.246.181.141
+2013-04-14 14:17:15,254 fail2ban.actions.action: ERROR  /sbin/ipfw table 100 delete 92.246.181.141 returned 4700
+2013-04-14 15:01:47,598 fail2ban.actions: WARNING [ssh-ipfw] Ban 61.136.171.198
+2013-04-14 16:54:05,806 fail2ban.actions: WARNING [ssh-ipfw] Unban 85.233.152.210
+2013-04-14 17:26:13,844 fail2ban.actions: WARNING [ssh-ipfw] Unban 123.30.180.59
+2013-04-14 18:04:08,008 fail2ban.actions: WARNING [ssh-ipfw] Unban 60.28.27.14
+2013-04-15 01:36:49,478 fail2ban.actions: WARNING [ssh-ipfw] Unban 180.153.245.13
+2013-04-15 03:06:22,167 fail2ban.actions: WARNING [ssh-ipfw] Ban 109.72.212.213
+2013-04-15 04:58:14,787 fail2ban.actions: WARNING [ssh-ipfw] Ban 131.107.5.212
+2013-04-15 05:14:30,487 fail2ban.actions: WARNING [ssh-ipfw] Unban 182.131.22.211
+2013-04-15 08:18:45,656 fail2ban.actions: WARNING [ssh-ipfw] Unban 118.244.14.49
+2013-04-15 09:43:52,584 fail2ban.actions: WARNING [ssh-ipfw] Unban 117.239.77.130
+2013-04-15 10:14:24,840 fail2ban.actions: WARNING [ssh-ipfw] Ban 69.172.215.246
+2013-04-15 10:57:09,335 fail2ban.actions: WARNING [ssh-ipfw] Unban 188.127.229.22
+2013-04-15 13:19:39,890 fail2ban.actions: WARNING [ssh-ipfw] Ban 213.189.34.222
+2013-04-15 16:14:05,254 fail2ban.actions: WARNING [ssh-ipfw] Unban 199.201.126.12
+2013-04-15 18:41:20,658 fail2ban.actions: WARNING [ssh-ipfw] Unban 145.253.72.3
+2013-04-15 19:26:54,572 fail2ban.actions: WARNING [ssh-ipfw] Unban 109.70.149.222
+2013-04-16 00:16:40,246 fail2ban.actions: WARNING [ssh-ipfw] Unban 121.163.230.100
+2013-04-16 07:14:35,421 fail2ban.actions: WARNING [ssh-ipfw] Unban 50.56.85.85
+2013-04-16 10:30:44,461 fail2ban.actions: WARNING [ssh-ipfw] Unban 5.135.48.159
+2013-04-16 13:33:28,954 fail2ban.actions: WARNING [ssh-ipfw] Unban 115.23.174.206
+2013-04-16 15:05:25,518 fail2ban.actions: WARNING [ssh-ipfw] Unban 187.33.2.140
+2013-04-16 18:36:41,723 fail2ban.actions: WARNING [ssh-ipfw] Unban 176.99.6.220
+2013-04-16 19:21:32,778 fail2ban.actions: WARNING [ssh-ipfw] Unban 211.154.163.149
+2013-04-16 21:32:08,271 fail2ban.actions: WARNING [ssh-ipfw] Unban 116.205.243.183
+2013-04-16 22:52:00,592 fail2ban.actions: WARNING [ssh-ipfw] Unban 222.239.255.64
+2013-04-16 23:15:02,052 fail2ban.actions: WARNING [ssh-ipfw] Unban 176.222.228.187
+2013-04-17 00:55:30,018 fail2ban.actions: WARNING [ssh-ipfw] Ban 210.83.84.27
+2013-04-17 02:51:32,600 fail2ban.actions: WARNING [ssh-ipfw] Unban 115.68.22.162
+2013-04-17 03:51:55,493 fail2ban.actions: WARNING [ssh-ipfw] Ban 119.134.244.22
+2013-04-17 04:35:22,731 fail2ban.actions: WARNING [ssh-ipfw] Unban 1.25.202.50
+2013-04-17 08:18:04,323 fail2ban.actions: WARNING [ssh-ipfw] Unban 195.113.36.111
+2013-04-17 13:00:15,070 fail2ban.actions: WARNING [ssh-ipfw] Unban 60.10.203.18
+2013-04-17 13:43:04,696 fail2ban.actions: WARNING [ssh-ipfw] Unban 117.239.53.3
+2013-04-17 17:27:06,741 fail2ban.actions: WARNING [ssh-ipfw] Unban 221.224.33.70
+2013-04-17 18:15:17,906 fail2ban.actions: WARNING [ssh-ipfw] Unban 69.215.184.185
+2013-04-17 20:28:17,725 fail2ban.actions: WARNING [ssh-ipfw] Unban 61.19.244.118
+2013-04-18 00:07:32,800 fail2ban.actions: WARNING [ssh-ipfw] Unban 88.191.130.215
+2013-04-18 04:38:26,351 fail2ban.actions: WARNING [ssh-ipfw] Unban 202.108.62.199
+2013-04-18 06:41:14,884 fail2ban.actions: WARNING [ssh-ipfw] Unban 189.3.61.50
+2013-04-18 08:17:22,924 fail2ban.actions: WARNING [ssh-ipfw] Ban 178.77.67.27
+2013-04-18 09:44:01,759 fail2ban.actions: WARNING [ssh-ipfw] Ban 88.255.118.251
+2013-04-18 10:00:01,155 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2013-04-18 13:01:06,594 fail2ban.actions: WARNING [ssh-ipfw] Ban 118.244.14.49
+2013-04-18 22:46:36,615 fail2ban.actions: WARNING [ssh-ipfw] Unban 125.39.8.136
+2013-04-18 23:15:52,247 fail2ban.actions: WARNING [ssh-ipfw] Unban 222.186.31.83
+2013-04-19 04:09:44,408 fail2ban.actions: WARNING [ssh-ipfw] Unban 176.108.0.22
+2013-04-19 05:33:57,235 fail2ban.actions: WARNING [ssh-ipfw] Ban 174.34.145.74
+2013-04-19 11:26:28,324 fail2ban.actions: WARNING [ssh-ipfw] Ban 69.46.72.45
+2013-04-19 14:26:29,665 fail2ban.actions: WARNING [ssh-ipfw] Ban 42.120.17.49
+2013-04-19 17:07:30,770 fail2ban.actions: WARNING [ssh-ipfw] Unban 122.4.79.67
+2013-04-19 22:31:54,377 fail2ban.actions: WARNING [ssh-ipfw] Ban 66.18.219.122
+2013-04-19 22:37:06,795 fail2ban.actions: WARNING [ssh-ipfw] Unban 193.255.242.4
+2013-04-19 23:26:25,049 fail2ban.actions: WARNING [ssh-ipfw] Unban 192.95.52.154
+2013-04-20 02:40:43,176 fail2ban.actions: WARNING [ssh-ipfw] Ban 218.244.176.198
+2013-04-20 02:56:32,612 fail2ban.actions: WARNING [ssh-ipfw] Unban 193.224.95.2
+2013-04-20 05:47:00,358 fail2ban.actions: WARNING [ssh-ipfw] Ban 216.19.223.55
+2013-04-20 10:27:36,607 fail2ban.actions: WARNING [ssh-ipfw] Ban 195.138.80.70
+2013-04-20 11:29:41,770 fail2ban.actions: WARNING [ssh-ipfw] Unban 192.211.62.180
+2013-04-20 12:54:50,565 fail2ban.actions: WARNING [ssh-ipfw] Unban 152.48.2.238
+2013-04-20 14:09:22,499 fail2ban.actions: WARNING [ssh-ipfw] Ban 202.162.221.220
+2013-04-20 14:54:48,514 fail2ban.actions: WARNING [ssh-ipfw] Unban 188.132.206.233
+2013-04-20 16:31:13,723 fail2ban.actions: WARNING [ssh-ipfw] Ban 106.186.21.162
+2013-04-20 18:21:08,405 fail2ban.actions: WARNING [ssh-ipfw] Ban 58.177.188.246
+2013-04-20 20:58:03,378 fail2ban.actions: WARNING [ssh-ipfw] Ban 109.70.149.222
+2013-04-20 20:58:03,393 fail2ban.actions: INFO   [ssh-ipfw] 109.70.149.222 already banned
+2013-04-21 00:02:08,744 fail2ban.actions: WARNING [ssh-ipfw] Ban 124.160.227.18
+2013-04-21 00:18:20,592 fail2ban.actions: WARNING [ssh-ipfw] Unban 178.254.4.62
+2013-04-21 01:04:08,326 fail2ban.actions: WARNING [ssh-ipfw] Unban 113.34.19.75
+2013-04-21 08:45:11,991 fail2ban.actions: WARNING [ssh-ipfw] Unban 58.68.229.137
+2013-04-21 10:12:54,242 fail2ban.actions: WARNING [ssh-ipfw] Ban 207.224.221.193
